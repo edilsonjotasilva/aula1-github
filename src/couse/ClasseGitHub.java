@@ -1,9 +1,16 @@
 package couse;
 
+import java.util.Scanner;
+
 public class ClasseGitHub {
 
 	public static void main(String[] args) {
-		System.out.println("TEste de atualização do gitHub");
+		Scanner in = new Scanner (System.in);
+		
+		System.out.println("Qual o seu nome");
+		String nome = in.next();
+		System.out.println("Meu nome é: "+ nome);
+		in.close();
 
 	}
 
