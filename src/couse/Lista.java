@@ -13,6 +13,7 @@ public class Lista {
 		lista.add("Marco");
 		lista.add("Bob");
 		lista.add("Ana");
+		lista.add("Creuza");
 		System.out.println("tamanho da llista: "+lista.size());
 		System.out.println("LISTA1: "+lista);
 		System.out.println("--------------------------");		
